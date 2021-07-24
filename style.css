@@ -1,0 +1,66 @@
+body{
+  background-color: rgb(12, 17, 39);
+  color: white;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+}
+
+#inicio{
+  font-size: 4em;
+  text-align:center;
+}
+
+h4{
+  font-size: 120%;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+p strong{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:700;
+}
+
+a{
+  color:currentColor
+}      body{
+        background-color: rgb(12, 17, 39);
+        color: white;
+      }
+
+      h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 3em;
+      }
+
+      #inicio{
+        font-size: 4em;
+        text-align:center;
+      }
+
+      h4{
+        font-size: 120%;
+      }
+
+      p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+      }
+
+      p strong{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:700;
+      }
+
+      a{
+        color:currentColor
+      }
+
