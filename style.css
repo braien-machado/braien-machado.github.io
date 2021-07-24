@@ -69,6 +69,10 @@ ul{
 
 .meu_nome{
   text-align: center;
+  padding-bottom: 0;
+  margin:0;
+  padding-top: 70px;
+
 }
 
 #foto-perfil{
@@ -80,8 +84,8 @@ ul{
   background-color: #ffffff;
 }
 
-.image-description{
-
+.image-description, #habilidades, #interesses{
+  padding-bottom: 30px;
 }
 
 #quem_sou{
