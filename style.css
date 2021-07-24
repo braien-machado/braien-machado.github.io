@@ -1,7 +1,7 @@
 body{
   background-color: rgb(12, 17, 39);
   color: white;
-  padding: 30px;
+  padding: 0 30px;
 }
 
 h1{
@@ -15,10 +15,6 @@ h1{
   text-align:center;
 }
 
-h4{
-  font-size: 120%;
-}
-
 p{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -30,7 +26,30 @@ p strong{
 }
 
 a{
-  color:currentColor
+  color:currentColor;
+  text-decoration: none;
+}
+
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(218, 168, 33);
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.menu ul li a:hover{
+  background-color: rgb(189, 146, 27);
 }
 
 .meu_nome{
