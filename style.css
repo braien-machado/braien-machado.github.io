@@ -45,10 +45,15 @@ a{
 
 .image-container{
   height: 300px;
+  position: relative;
 }
 
 #quem_sou{
-  
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 0px;
+  overflow:auto;
+  height: 300px;
 }
 
 
