@@ -34,7 +34,14 @@ a{
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.menu-superior{
   background-color: rgb(218, 168, 33);
+}
+
+.menu-inferior{
+  background-color: rgb(104, 102, 96);
 }
 
 .menu ul li{
