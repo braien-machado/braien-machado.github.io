@@ -31,3 +31,35 @@ p strong{
 a{
   color:currentColor
 }
+
+.meu_nome{
+  text-align: center;
+}
+
+#foto-perfil{
+  float:left;
+  height: 280px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.image-container{
+  height: 300px;
+}
+
+#quem_sou{
+  
+}
+
+
+
+
+
+
+
+
+
+
+div{
+  border: 2px solid green;
+}
