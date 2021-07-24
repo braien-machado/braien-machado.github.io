@@ -1,6 +1,7 @@
 body{
   background-color: rgb(12, 17, 39);
   color: white;
+  padding: 30px;
 }
 
 h1{
@@ -50,10 +51,8 @@ a{
 
 #quem_sou{
   position: absolute;
-  margin-left: 330px;
-  margin-top: 0px;
-  overflow:auto;
-  height: 300px;
+  left: 330px;
+  top: 80px;
 }
 
 
