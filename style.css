@@ -1,0 +1,111 @@
+body{
+  background-color: rgb(12, 17, 39);
+  color: white;
+  padding: 0 30px 30px;
+  font-size: 20px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+}
+
+#inicio{
+  font-size: 4em;
+  text-align:center;
+  font-weight: lighter;
+  
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-indent: 50px;
+  text-align:justify;
+}
+
+p strong{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:700;
+}
+
+a{
+  color:currentColor;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: square;
+  line-height: 30px;
+}
+
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-superior{
+  background-color: rgb(218, 168, 33);
+}
+
+.menu-inferior{
+  background-color: rgb(104, 102, 96);
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.menu ul li a:hover{
+  background-color: rgb(189, 146, 27);
+}
+
+.meu_nome{
+  text-align: center;
+  padding-bottom: 0;
+  margin:0;
+  padding-top: 70px;
+
+}
+
+#foto-perfil{
+  float: left;
+  height: 200px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.image-description, #habilidades, #interesses{
+  padding-bottom: 30px;
+}
+
+#quem_sou{
+  /* font-size: 20px; */
+  padding: 7% 5% 0% 5%;
+}
+
+.meu_nome a:hover, #interesses a:hover{
+  text-decoration: underline white;
+}
+
+
+
+
+
+
+
+
+/* div{
+  border: 2px solid green;
+} */

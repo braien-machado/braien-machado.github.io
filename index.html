@@ -4,64 +4,44 @@
     <meta charset="UTF-8">
     <title>Braien Machado de Paula</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <style>
 
-      body{
-        background-color: rgb(12, 17, 39);
-        color: white;
-      }
-
-      h1{
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 3em;
-      }
-
-      #inicio{
-        font-size: 4em;
-        text-align:center;
-      }
-
-      h4{
-        font-size: 120%;
-      }
-
-      p{
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-      }
-
-      p strong{
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight:700;
-      }
-
-      a{
-        color:currentColor
-      }
-
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body>
     <h1 id="inicio">Portfólio Web</h1>
-    
-    <h1>Olá, eu sou o <a href="#foto">Braien</a>!</h1>
+    <div class="menu">
+      <ul class="menu-superior">
+        
+          <li><a href="#quem_sou">Quem sou eu</a></li>
+        
+          <li><a href="#habilidades">Habilidades</a></li>
+                
+          <li><a href="#interesses">Interesses</a></li>
+        
+      </ul>
+    </div>
 
-    <h4><a href="#quem_sou">Quem sou eu</a></h4>
-    <h4><a href="#habilidades">Habilidades</a></h4>
-    <h4><a href="#interesses">Interesses</a></h4>
+    <div>
+      <h1 class="meu_nome">Olá, eu sou o <a href="#foto-perfil">Braien</a>!</h1>
 
-    <img id="foto" src="foto_perfil.jpeg" alt="Foto de Braien Machado de Paula sorrindo" width="300px">
+      <div class="image-description">
+        <img id="foto-perfil" src="foto_perfil.jpeg" alt="Foto de Braien Machado de Paula sorrindo">
 
-    <h2>Quem sou eu?</h2>
+        <div id="quem_sou">
+          <p >
+            <em>Brasileiro, natural de Nova Friburgo, cidade da região serrana do estado do Rio de Janeiro</em>. Sou casado e tenho 24 anos.
+          </p> 
+          <p>
+            Trabalho desde 2018 na área de Design Gráfico, Arte-finalização e produção de impressos. Sou uma pessoa apaixonada por exatas e por esse motivo ingressei no <strong>curso de Desenvolvimento Web da Trybe</strong>, o qual tem previsão de encerramento em julho de 2022, com o objetivo de mudar meu campo de atuação e expandir meus horizontes no mercado de trabalho.
+          </p>
+        </div>
 
-    <p id="quem_sou">
-      Sou de <em> Nova Friburgo, cidade da região serrana do estado do Rio de Janeiro, Brasil</em>. Sou casado e tenho 24 anos. 
-      <br>
-      Trabalho desde 2018 na área de Design Gráfico, Arte-finalização e produção de impressos. Apesar de trabalhar nessa área, sou uma pessoa apaixonada por exatas e por esse motivo ingressei no <strong>curso de Desenvolvimento Web da Trybe</strong>, o qual tem previsão de encerramento em julho de 2022, com o objetivo de mudar meu campo de atuação e expandir meus horizontes no mercado de trabalho.
-    </p>
+      </div>
 
-    <ul><h3 id="habilidades">Habilidades:</h3>
+    </div>
+
+    <ul id="habilidades"><h3>Habilidades:</h3>
       <li>Unix e Bash;</li>
       <li>Git;</li>
       <li>Inglês;</li>
@@ -70,7 +50,7 @@
       <li><strong>Ética.</strong></li>
     </ul>
     
-    <ul><h3 id="interesses">Interesses:</h3>
+    <ul id="interesses"><h3>Interesses:</h3>
       <em>
       <li>Programação;</li>
       <li><a href="https://sst.trade/" target="_blank">Mercado financeiro;</a></li>
@@ -79,8 +59,12 @@
       </em>
     </ul>
     
-    <h4><a href="#inicio">Início</a></h4>
-    <h4><a href="https://www.linkedin.com/in/braien-machado/" target="_blank">Linkedin</a></h4>
-    <h4><a href="https://github.com/braien-machado" target="_blank">GitHub</a></h4>
+    <div class="menu">
+      <ul class="menu-inferior">
+        <li><a href="#inicio">Voltar ao Início</a></li>
+        <li><a href="https://www.linkedin.com/in/braien-machado/" target="_blank">Linkedin</a></li>
+        <li><a href="https://github.com/braien-machado" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
   </body>
 </html>
